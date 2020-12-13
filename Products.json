@@ -1,0 +1,123 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": true,
+  "name": "Products",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "Coke 1L 1x12 NP PET",
+      "synonyms": [
+        "Coke 1L 1x12 NP PET",
+        "C1",
+        "c1"
+      ]
+    },
+    {
+      "value": "Coke 250ml 1x24 NP NRB",
+      "synonyms": [
+        "Coke 250ml 1x24 NP NRB",
+        "C2",
+        "c2"
+      ]
+    },
+    {
+      "value": "Coke 250ml 1x30 NP Can",
+      "synonyms": [
+        "Coke 250ml 1x30 NP Can",
+        "C3",
+        "c3"
+      ]
+    },
+    {
+      "value": "Coke 19L 1x1 BIB",
+      "synonyms": [
+        "Coke 19L 1x1 BIB",
+        "C4",
+        "c4"
+      ]
+    },
+    {
+      "value": "Coca-Cola 330ml 4x6 NPSleek Can",
+      "synonyms": [
+        "Coca-Cola 330ml 4x6 NPSleek Can",
+        "C5",
+        "c5"
+      ]
+    },
+    {
+      "value": "Coke 500ml 1x24  PET",
+      "synonyms": [
+        "Coke 500ml 1x24  PET",
+        "C6",
+        "c6"
+      ]
+    },
+    {
+      "value": "Coke 330ml 1x24 NP Sleek Can",
+      "synonyms": [
+        "Coke 330ml 1x24 NP Sleek Can",
+        "C7",
+        "c7"
+      ]
+    },
+    {
+      "value": "Coke Light 500ml 1x24  PET",
+      "synonyms": [
+        "Coke Light 500ml 1x24  PET",
+        "C8",
+        "c8"
+      ]
+    },
+    {
+      "value": "Coke Light 150ml 1x30  Can",
+      "synonyms": [
+        "Coke Light 150ml 1x30  Can",
+        "C9",
+        "c9"
+      ]
+    },
+    {
+      "value": "Coke Zero 330ml 4x6 NP Sleek Can",
+      "synonyms": [
+        "Coke Zero 330ml 4x6 NP Sleek Can",
+        "C10",
+        "c10"
+      ]
+    },
+    {
+      "value": "Coke Light 330ml 4x6 NP Sleek Can",
+      "synonyms": [
+        "Coke Light 330ml 4x6 NP Sleek Can",
+        "C11",
+        "c11"
+      ]
+    },
+    {
+      "value": "Coke Zero 500ml 1x24  PET",
+      "synonyms": [
+        "Coke Zero 500ml 1x24  PET",
+        "C12",
+        "c12"
+      ]
+    },
+    {
+      "value": "Coke 2.25L 1x6 NP PET",
+      "synonyms": [
+        "Coke 2.25L 1x6 NP PET",
+        "C13",
+        "c13"
+      ]
+    },
+    {
+      "value": "Coke 300ml 1x24 Can",
+      "synonyms": [
+        "Coke 300ml 1x24 Can",
+        "C14",
+        "c14"
+      ]
+    }
+  ],
+  "id": "64c15ceb-497d-4d18-bf02-63329c76dff2",
+  "isOverridable": false
+}

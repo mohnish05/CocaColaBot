@@ -1,0 +1,93 @@
+{
+  "id": "05688baa-6741-448c-b917-f09a983c8562",
+  "name": "no_intent",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": true,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "yes_no",
+          "dataType": "@yes_no",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$yes_no",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "no",
+          "userDefined": false,
+          "alias": "yes_no",
+          "meta": "@yes_no"
+        }
+      ],
+      "count": 0,
+      "id": "7e4cd4ea-38b4-4bae-af0b-09579891dd93",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "n",
+          "userDefined": false,
+          "alias": "yes_no",
+          "meta": "@yes_no"
+        }
+      ],
+      "count": 0,
+      "id": "cfc5166a-fa1a-49a2-a1f0-716ba4564d8f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "non",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "5762bb94-1d82-436d-9571-9061084cdca4",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

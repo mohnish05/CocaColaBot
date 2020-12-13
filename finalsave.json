@@ -1,0 +1,416 @@
+{
+  "id": "1f384217-b158-44b1-9916-f0922ebe14cf",
+  "name": "finalsave",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "products",
+          "dataType": "@Products",
+          "isList": true,
+          "required": true,
+          "prompts": [
+            "How much quantity you want?"
+          ],
+          "value": "$products",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "number",
+          "dataType": "@sys.number",
+          "isList": true,
+          "required": true,
+          "prompts": [
+            "How much quantity you want?"
+          ],
+          "value": "$number",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "c1,c2",
+          "userDefined": false,
+          "alias": "products",
+          "meta": "@Products"
+        }
+      ],
+      "count": 0,
+      "id": "53e7808d-be74-4121-934b-56cf89c26689",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "c12",
+          "userDefined": false,
+          "alias": "products",
+          "meta": "@Products"
+        },
+        {
+          "text": ",",
+          "userDefined": false
+        },
+        {
+          "text": "c3",
+          "userDefined": false,
+          "alias": "products",
+          "meta": "@Products"
+        }
+      ],
+      "count": 0,
+      "id": "3dd967df-e4dd-4b3e-8e47-e40394b78623",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "c2,c14",
+          "userDefined": false,
+          "alias": "products",
+          "meta": "@Products"
+        }
+      ],
+      "count": 0,
+      "id": "deba8937-cdec-4dc0-8e7f-6204a557913a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "c1,c3",
+          "userDefined": false,
+          "alias": "products",
+          "meta": "@Products"
+        }
+      ],
+      "count": 0,
+      "id": "738a18f4-bf04-496f-aecc-2212013456cf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "7",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        }
+      ],
+      "count": 0,
+      "id": "9646b2c7-a486-4e7b-a7cb-b7f983d74715",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "6",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        }
+      ],
+      "count": 0,
+      "id": "7d477191-ad88-49de-b4f9-51b46cb0d004",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "5",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        }
+      ],
+      "count": 0,
+      "id": "c0f83462-9744-454b-b6a4-f60c3b3d50c4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "3",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        }
+      ],
+      "count": 0,
+      "id": "7a961b3d-f0bd-47d0-be16-6d6cbd10223f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "2",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        }
+      ],
+      "count": 0,
+      "id": "2b5c1813-9c12-478d-aaa2-7319406a2741",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "1",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        }
+      ],
+      "count": 0,
+      "id": "b9eab133-7ea6-4a9d-958e-41b5cc8984e1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "c14",
+          "userDefined": false,
+          "alias": "products",
+          "meta": "@Products"
+        }
+      ],
+      "count": 0,
+      "id": "45725744-47ef-473b-8da1-5288a7366e30",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "c13",
+          "userDefined": false,
+          "alias": "products",
+          "meta": "@Products"
+        }
+      ],
+      "count": 0,
+      "id": "5efaca0a-c90b-45f7-9aed-fa04d333306d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "c12",
+          "userDefined": false,
+          "alias": "products",
+          "meta": "@Products"
+        }
+      ],
+      "count": 0,
+      "id": "e8004f4c-77fb-489b-836d-e3a408c91ab1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "c11",
+          "userDefined": false,
+          "alias": "products",
+          "meta": "@Products"
+        }
+      ],
+      "count": 0,
+      "id": "2a838a76-4871-4622-9045-6d2b55e0332e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "c10",
+          "userDefined": false,
+          "alias": "products",
+          "meta": "@Products"
+        }
+      ],
+      "count": 0,
+      "id": "d77d5d99-7b11-499f-88c3-12a6066c2037",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "c9",
+          "userDefined": false,
+          "alias": "products",
+          "meta": "@Products"
+        }
+      ],
+      "count": 0,
+      "id": "d2cd1c12-9a8f-4af3-8fc8-7f9765a0b180",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "c8",
+          "userDefined": false,
+          "alias": "products",
+          "meta": "@Products"
+        }
+      ],
+      "count": 0,
+      "id": "288730ea-a687-49f6-a2d9-c669c6426d17",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "c7",
+          "userDefined": false,
+          "alias": "products",
+          "meta": "@Products"
+        }
+      ],
+      "count": 0,
+      "id": "4e584e80-0921-496b-bd09-37efaa2d1152",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "c6",
+          "userDefined": false,
+          "alias": "products",
+          "meta": "@Products"
+        }
+      ],
+      "count": 0,
+      "id": "55d14704-c121-4669-8e29-b77b7fbea245",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "c5",
+          "userDefined": false,
+          "alias": "products",
+          "meta": "@Products"
+        }
+      ],
+      "count": 0,
+      "id": "b25881bf-b661-4897-8744-3f6dbf9bd649",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "c4",
+          "userDefined": false,
+          "alias": "products",
+          "meta": "@Products"
+        }
+      ],
+      "count": 0,
+      "id": "39adb462-fab4-4352-af41-9a0cc9ca0064",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "c3",
+          "userDefined": false,
+          "alias": "products",
+          "meta": "@Products"
+        }
+      ],
+      "count": 0,
+      "id": "46c86713-e964-4b02-90a2-9d6f4ff376fa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "c2",
+          "userDefined": false,
+          "alias": "products",
+          "meta": "@Products"
+        }
+      ],
+      "count": 0,
+      "id": "4d3ed6f0-93da-4775-aada-04ab0ad73b9d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "c1",
+          "userDefined": false,
+          "alias": "products",
+          "meta": "@Products"
+        }
+      ],
+      "count": 0,
+      "id": "0d1e0821-06af-4be0-8785-3f3c4d6ee90a",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

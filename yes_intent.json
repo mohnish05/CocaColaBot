@@ -1,0 +1,83 @@
+{
+  "id": "9d517929-de41-4992-a366-789f6286708c",
+  "name": "yes_intent",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "yes_no",
+          "dataType": "@yes_no",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$yes_no",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "we have the following products: \nC1: Coke 1L 1x12 NP PET\n\nC2: Coke 250ml 1x24 NP NRB\n\nC3: Coke 250ml 1x30 NP Can\n\nC4: Coke 19L 1x1 BIB\n\nC5: Coca-Cola 330ml 4x6 NPSleek Can\n\nC6: Coke 500ml 1x24  PET\n\nC7: Coke 330ml 1x24 NP Sleek Can\n\nC8: Coke Light 500ml 1x24  PET\n\nC9: Coke Light 150ml 1x30  Can\n\nC10: Coke Zero 330ml 4x6 NP Sleek Can\n\nC11: Coke Light 330ml 4x6 NP Sleek Can\n\nC12: Coke Zero 500ml 1x24  PET\n\nC13: Coke 2.25L 1x6 NP PET\n\nC14: Coke 300ml 1x24 Can"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "yes",
+          "userDefined": true,
+          "alias": "yes_no",
+          "meta": "@yes_no"
+        }
+      ],
+      "count": 4,
+      "id": "86e7a2b4-e7a0-4571-a496-fec9c4991827",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "y",
+          "userDefined": false,
+          "alias": "yes_no",
+          "meta": "@yes_no"
+        }
+      ],
+      "count": 1,
+      "id": "35987046-24bb-4884-91cc-ca464387730e",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,209 @@
+{
+  "id": "f3f1f49e-8bd0-46e8-a6a8-dc14c6c42d5d",
+  "name": "Order_Phase",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Yes, we have the following products: \nC1: Coke 1L 1x12 NP PET\n\nC2: Coke 250ml 1x24 NP NRB\n\nC3: Coke 250ml 1x30 NP Can\n\nC4: Coke 19L 1x1 BIB\n\nC5: Coca-Cola 330ml 4x6 NPSleek Can\n\nC6: Coke 500ml 1x24  PET\n\nC7: Coke 330ml 1x24 NP Sleek Can\n\nC8: Coke Light 500ml 1x24  PET\n\nC9: Coke Light 150ml 1x30  Can\n\nC10: Coke Zero 330ml 4x6 NP Sleek Can\n\nC11: Coke Light 330ml 4x6 NP Sleek Can\n\nC12: Coke Zero 500ml 1x24  PET\n\nC13: Coke 2.25L 1x6 NP PET\n\nC14: Coke 300ml 1x24 Can"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "which products do you have",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e704d00e-c694-4e05-9bf4-dd0372d4a947",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what are the products",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b4eeb0c3-8c6c-45ec-95aa-162a168ea775",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "whats there",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cd692139-18a1-4b76-8833-9bc443569470",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i want to buy",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "353c5020-6193-4070-bf45-0ce00a711c18",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "buy",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "21196280-75e2-4420-bdf2-9c65c9528101",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "order",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6470aa13-0266-405d-b42f-549bfa51c3d5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to order.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "af4db15e-81a9-4a37-bc91-3b218ab62dfe",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to purchase",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a06e8f92-db2f-40eb-9d1f-962c48585572",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What do you have?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d1966a05-f6cd-4b55-9a6c-119690879dcc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What's new?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c6eca1a6-8e06-4a59-b1ce-223ce740b7e5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Show me some offers.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9aad8d22-66ec-4fd2-8495-ef494a7ef57f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want some coke bottles.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8891be9b-77bc-473d-bffc-7f165d348a1d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What kind of product do you have?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f163edec-5d4f-4c76-bf19-5878809db78a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Show me some special offers.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1741d35b-9be2-4580-9ac3-20c76cf7bdfe",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
